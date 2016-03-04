@@ -1,0 +1,19 @@
+.navbar-default {
+  	background-color: white;
+  	border: none;
+  	width: 100%;
+}
+
+#logo {
+	margin-top: -10px;
+	width: 69px;
+	left: 50%;
+	position: absolute;
+}
+
+/*#bs-example-navbar-collapse-1 {
+	float: right;
+	margin-top: 40px;
+	padding-right: 0;
+	border: none;
+}*/
