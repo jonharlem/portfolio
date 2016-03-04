@@ -1,3 +1,5 @@
+/*NAVBAR*/
+
 .navbar-default {
   	background-color: white;
   	border: none;
@@ -11,9 +13,29 @@
 	position: absolute;
 }
 
-/*#bs-example-navbar-collapse-1 {
-	float: right;
-	margin-top: 40px;
-	padding-right: 0;
-	border: none;
-}*/
+/*SECTIONS*/
+
+div.col-xs-12.col-sm-3 {
+	padding: 0;
+	overflow-y:auto;
+}
+
+#about {
+	background-color: red;
+	height: 100%;
+}
+
+#projects {
+	background-color: blue;
+	height: 100%;
+}
+
+#skills {
+	background-color: orange;
+	height: 100%;
+}
+
+#contact {
+	background-color: green;
+	height: 100%;
+}
