@@ -1,16 +1,25 @@
+p {
+	color: white;
+}
+
 /*NAVBAR*/
 
 .navbar-default {
   	background-color: white;
   	border: none;
   	width: 100%;
+  	margin-bottom: 0;
 }
 
 #logo {
-	margin-top: -10px;
+	margin-top: -5px;
 	width: 69px;
 	left: 50%;
 	position: absolute;
+}
+
+.navbar-nav {
+	margin-top: 15px;
 }
 
 /*SECTIONS*/
@@ -21,21 +30,28 @@ div.col-xs-12.col-sm-3 {
 }
 
 #about {
-	background-color: red;
-	height: 100%;
+	background-color: #101640;
+	height: 800px;
 }
 
 #projects {
-	background-color: blue;
-	height: 100%;
+	background-color: #2D5873;
+	height: 800px;
 }
 
 #skills {
-	background-color: orange;
-	height: 100%;
+	background-color: #7BA696;
+	height: 800px;
 }
 
 #contact {
-	background-color: green;
-	height: 100%;
+	background-color: #BFBA9F;
+	height: 800px;
+}
+
+.titleWrapper {
+	margin-left: 20%;
+	padding-top: 20%;
+	font-size: 4em;
+	font-weight: 500;
 }
