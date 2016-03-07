@@ -25,13 +25,24 @@ p {
 	padding-bottom: 10px;
 }
 
-.navbar-nav>li>a {
+.navbar-nav>li>a  {
 	font-size: 1.2em;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 3px;
 }
-
-.navbar-nav>li>a:hover {
-	border-bottom: 3px solid #666;
-	padding-bottom: 4px;
+.navbar-nav>li>a:after {
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	background: transparent;
+	transition: width .5s ease, background-color .5s ease;
+}
+.navbar-nav>li>a:hover:after {
+	width: 100%;
+	background: #666;
 }
 
 /*SECTIONS*/
