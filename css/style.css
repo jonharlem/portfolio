@@ -12,14 +12,26 @@ p {
 }
 
 #logo {
-	margin-top: -5px;
 	width: 69px;
-	left: 50%;
+	left: calc(50% - 35px);
 	position: absolute;
 }
 
 .navbar-nav {
 	margin-top: 15px;
+}
+
+.navbar-header {
+	padding-bottom: 10px;
+}
+
+.navbar-nav>li>a {
+	font-size: 1.2em;
+}
+
+.navbar-nav>li>a:hover {
+	border-bottom: 3px solid #666;
+	padding-bottom: 4px;
 }
 
 /*SECTIONS*/
@@ -45,12 +57,12 @@ div.col-xs-12.col-sm-3 {
 }
 
 #contact {
-	background-color: #BFBA9F;
+	background-color: #BF9663;
 	height: 800px;
 }
 
 .titleWrapper {
-	margin-left: 20%;
+	margin-left: 10%;
 	padding-top: 20%;
 	font-size: 4em;
 	font-weight: 500;
