@@ -45,31 +45,33 @@ p {
 	background: #666;
 }
 
-/*SECTIONS*/
+/*PANELS*/
 
 div.col-xs-12.col-sm-3 {
 	padding: 0;
 	overflow-y:auto;
 }
 
+.closed {
+	height: calc(92vh);
+	min-height: 500px;
+	display: flex;
+}
+
 #about {
 	background-color: #101640;
-	height: 800px;
 }
 
 #projects {
 	background-color: #2D5873;
-	height: 800px;
 }
 
 #skills {
 	background-color: #7BA696;
-	height: 800px;
 }
 
 #contact {
 	background-color: #BF9663;
-	height: 800px;
 }
 
 .titleWrapper {
@@ -77,4 +79,22 @@ div.col-xs-12.col-sm-3 {
 	padding-top: 20%;
 	font-size: 4em;
 	font-weight: 500;
+	position: absolute;
+}
+
+.expand {
+	-webkit-transform: width 2s;
+	transition: width 2s;
+}
+
+.expand:hover {
+	width: 110%;
+}
+
+.shrink {
+	width: 90%;
+}
+
+.wrapper {
+	position: relative;
 }
